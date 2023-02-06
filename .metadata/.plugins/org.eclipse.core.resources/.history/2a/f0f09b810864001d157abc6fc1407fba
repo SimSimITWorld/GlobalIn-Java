@@ -1,0 +1,25 @@
+package practice_1;
+
+import java.util.*;
+
+public class Practice_0 {
+
+	public static void main(String[] args)  {
+	
+		Scanner sc = new Scanner(System.in);
+		String[] subname = {"국어","영어","수학"};
+		System.out.print("인원 입력 : ");
+		int[][] sub = new int[sc.nextInt()][];
+		
+		for(int i =0;i<subname.length;i++) {
+			System.out.print("점수 입력 : ");
+			sub[i] = new int[sc.nextInt()];
+		}
+		
+		for(int i = 0;i<subname.length;i++) {
+			for(int j = 0;j<subname[i].length();j++) {
+				System.out.print(sub[i][j]+"\t");
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\USER\Desktop\DayAll.zip"/>
+			<item value="C:\Users\USER\Desktop\Day10-20.zip"/>
+			<item value="C:\Users\USER\Desktop\Day20.zip"/>
+			<item value="C:\Users\USER\Desktop\Day19.zip"/>
+			<item value="C:\Users\USER\Desktop\Day18.zip"/>
+			<item value="C:\Users\USER\Desktop\Day17_1.zip"/>
+			<item value="C:\Users\USER\Desktop\Day17_.zip"/>
+			<item value="C:\Users\USER\Desktop\Day17.zip"/>
+			<item value="C:\Users\USER\Desktop\DayAllzip.zip"/>
+			<item value="C:\Users\USER\Desktop\Day15,16.zip"/>
+			<item value="C:\Users\USER\Desktop\Day16.zip"/>
+			<item value="C:\Users\USER\Desktop\Day15_3.zip"/>
+			<item value="C:\Users\USER\Desktop\HashMapEx03.zip"/>
+			<item value="C:\Users\USER\Desktop\Day15_1.zip"/>
+			<item value="C:\Users\USER\Desktop\Day15.zip"/>
+			<item value="C:\Users\USER\Desktop\2022_12_02.zip"/>
+			<item value="C:\Users\USER\Desktop\2022_11_30.zip"/>
+			<item value="C:\Users\USER\Desktop\월말평가.zip"/>
+			<item value="C:\Users\USER\Desktop\2022_11_28.zip"/>
+			<item value="C:\Users\USER\Desktop\Day_5_6_7.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+</section>

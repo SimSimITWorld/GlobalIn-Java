@@ -1,0 +1,15 @@
+package practice;
+
+import java.util.*;
+
+public class Practice_1 {
+
+	public static void main(String[] args) {
+		
+		String[] members = { "강아지", "고양이", "알파카"};
+		
+		System.out.println(members[1]);
+
+	}
+
+}

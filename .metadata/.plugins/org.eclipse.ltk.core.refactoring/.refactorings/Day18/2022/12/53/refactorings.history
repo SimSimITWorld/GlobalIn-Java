@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.threadex.SingleThreadEx&apos; to &apos;SingleThread&apos;&#x0D;&#x0A;- Original project: &apos;Day18&apos;&#x0D;&#x0A;- Original element: &apos;com.threadex.SingleThreadEx&apos;&#x0D;&#x0A;- Renamed element: &apos;com.threadex.SingleThread&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SingleThreadEx&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.threadex{SingleThreadEx.java[SingleThreadEx" matchStrategy="1" name="SingleThread" qualified="false" references="true" similarDeclarations="false" stamp="1672022752009" textual="false" version="1.0"/>
+</session>

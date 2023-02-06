@@ -1,0 +1,31 @@
+package practice;
+
+import java.util.*;
+
+public class Practice_1 {
+
+	public static void main(String[] args) {
+		
+		String[] members = { "강아지", "고양이", "알파카"};
+		
+	    int choose;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("어서오세요 고객님. 원하시는 동물을 선택해주세요.(1번 : 강아지, 2번 : 고양이, 3번 : 알파카)\n⇒ ");
+		int num1 = sc.nextInt();
+		switch (num1) {
+		    case 1:
+		    	System.out.println(members[num1] + "를 입양하셨습니다.");
+		    	break;
+		    case 2:
+		    	System.out.println(members[num1] + "고양이를 입양하셨습니다.");
+		    	break;
+		    case 3:
+		    	System.out.println(members[num1] + "알파카를 입양하셨습니다.");
+		    	break;
+		    default:
+		    	System.out.println("다시 확인해주세요.");
+		}
+
+	}
+
+}

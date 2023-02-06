@@ -1,0 +1,44 @@
+package exam;
+
+/* 임의의 정수 입력 : 10
+ * 
+ * 1 ~ 10 까지의 합계 : 55
+ * 계속 하시겠습니까?[y/n] : y
+ * 임의의 정수 입력 : 100
+ * 1 ~ 100까지의 합계 : 5050
+ * 계속 하시겠습니까?[y/n] : n
+ * 
+ * 단, 입력 정수의 범위는 1 ~ 1000까지로
+ */
+
+import java.util.*;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int sum = 0;
+		int n = 0;
+		boolean control = true;
+		char ch = ' ';
+		do {
+			do {
+				System.out.print("임의의 정수 입력 : ");
+				n = sc.nextInt();
+			} while (n < 1 || n > 1000);
+			for (int i = 1; i <= n; i++) {
+				sum += i;
+			}
+			System.out.println("1 ~ " + n + "까지의 합계 : " + sum);
+			do {
+				System.out.print("계속 하시겠습니까?[y/n] : ");
+				ch = sc.next().charAt(0);
+			} while (ch != 'y' || ch != 'Y' || ch != 'n' || ch != 'N');
+			if(ch==n)
+				control = false;
+		} while (control);
+
+	}
+
+}

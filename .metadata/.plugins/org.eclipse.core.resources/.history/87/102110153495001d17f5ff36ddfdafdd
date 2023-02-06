@@ -1,0 +1,38 @@
+package newprac;
+
+/* 문]
+ *      입력된 정수의 평균을 구하는 프로그램을 작성하시오.
+ *      
+ *      1. 사용자로부터 정수의 개수를 입력받는다.
+ *      2. 입력받은 수만큼 평균을 구한다.
+ *      3. 입력된 값은 정수지만 출력은 실수 처리하시오.
+ *      
+ *      3
+ *      10
+ *      20
+ *      30
+ */
+
+import java.util.*;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("정수 개수 입력 : ");
+		int val = sc.nextInt();
+		int count = 0;
+		int sum = 0;
+		for(int i = 0;i<val;i++) {
+			System.out.print("값 입력 : ");
+			int a = sc.nextInt();
+			sum += a;
+			count++;
+		}
+		System.out.print("출력 : " + (float)sum/count);
+
+	}
+
+}

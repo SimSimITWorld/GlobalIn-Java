@@ -1,0 +1,31 @@
+package exam;
+
+/* 문]
+ *     배열로 국, 영, 수, 총점 받기
+ */
+
+import java.util.*;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		String[] sub = {"국어","영어","수학"};
+		int[] score = new int[sub.length+1];
+		int sum = 0;
+		
+		for(int i = 0;i<score.length-1;i++) {
+			System.out.print(sub[i] + "점수 입력 : ");
+			score[i] = sc.nextInt();
+			score[score.length-1] += score[i];
+		}
+		
+		for(int i = 0;i<score.length-1;i++) 
+			System.out.println(sub[i] + "점수 : " + score[i]);
+		
+		System.out.println("총점 : " + score[score.length-1]);
+		
+	}
+
+}

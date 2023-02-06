@@ -1,0 +1,27 @@
+package practice;
+
+import java.util.*;
+
+public class Practice_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		String members;
+		String stringArray[] = null;
+		stringArray = new String[5];
+		
+		for (int i = 0; i < stringArray.length;i++) {
+			
+			System.out.print("멤버 입력 : ");
+			members = sc.next();
+			stringArray[i]=members;
+		}
+		
+		for (int j = 0 ; j < stringArray.length; j++) {
+			System.out.println(stringArray[j]+ ", ");
+		}
+
+	}
+
+}

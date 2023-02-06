@@ -1,0 +1,76 @@
+package practice_2;
+
+import java.util.*;
+
+public class Practice0 {
+	
+	private static Scanner sc = new Scanner(System.in);
+	static int n;
+	public static void main(String[] args) {
+		    boolean value = true;
+		    while(value) {
+		        System.out.println("------------------------------------------------");
+		        System.out.println("1.계좌생성 | 2.계좌목록 | 3.예금 | 4.출금 | 5.종료");
+		        System.out.println("------------------------------------------------");
+		        System.out.print("은행 업무선택 : ");
+	            n = sc.nextInt();
+	    
+	            switch(n) {
+	                case 1:
+	        	        break;
+	                case 2:
+	        	        break;
+	                case 3:
+	        	        break;
+	                case 4:
+	        	        break;
+	                case 5:
+	    	            value = false;
+	            }
+	        }
+		
+	}
+	
+	class bank{
+		private String name;
+		private String account;
+		private int balance;
+		
+		public bank(String name, String account, int balance) {
+			this.name =name;
+			this.account = account;
+			this.balance = balance;
+		}
+		
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getAccount() {
+			return account;
+		}
+		public void setAccount(String account) {
+			this.account = account;
+		}
+		public int getBalance() {
+			return balance;
+		}
+		public void setBalance(int balance) {
+			this.balance = balance;
+		}
+	}
+	
+	private static void CreatAccount(){
+		System.out.print("이름 입력 : ");
+		String name = sc.next();
+		System.out.print("계좌 입력 : ");
+		String account = sc.next();
+		System.out.print("잔액 입력 : ");
+		int balance = sc.nextInt();
+		
+	}
+	
+	
+}

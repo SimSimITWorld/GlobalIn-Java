@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="729"/>
+		<item key="DIALOG_Y_ORIGIN" value="403"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;if(colcol==true) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;if(result==&quot;+&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value + second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;-&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value - second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;*&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value * second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;/&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value / second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;if(colcol==true) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;if(result==&quot;+&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value + second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;-&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value - second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;*&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value * second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;else if(result==&quot;/&quot;) {&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;first_value = Integer.parseInt(first_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;second_value = Integer.parseInt(second_sum);&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;result_value = first_value / second_value;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;coltext.setText(Integer.toString(result_value));&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;count = false;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;"/>
+			<item value="fl"/>
+			<item value="colwin"/>
+			<item value="play.add"/>
+			<item value="&#x09;JPanel expensepanel = new JPanel();"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="845"/>
+		<item key="DIALOG_Y_ORIGIN" value="389"/>
+		<item key="DIALOG_WIDTH" value="288"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

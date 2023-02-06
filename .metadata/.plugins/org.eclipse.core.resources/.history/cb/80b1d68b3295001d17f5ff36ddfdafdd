@@ -1,0 +1,28 @@
+package newprac;
+
+/* 문]
+ *      이중 중첩 반복문을 사용하여 다음과 같이 출력하시오.
+ * 
+ *      *****
+ *      ****
+ *      ***
+ *      **
+ *      *
+ */
+
+import java.util.*;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		
+		for(int i = 0;i<5;i++) {
+			for(int j = 5-i;j>=i;j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

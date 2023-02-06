@@ -1,0 +1,17 @@
+package practice;
+
+import java.util.*;
+
+public class Practice_1 {
+
+	public static void main(String[] args) {
+		
+		String[] members = { "강아지", "고양이", "알파카"};
+		
+		for (int i = 0; i <members.length; i++) {
+			System.out.println(members[i] + "를 분양 받으셨습니다.");
+		}
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package newprac;
+
+/* 임의의 정수 입력 : 10
+ * 
+ * 1 ~ 10 까지의 합계 : 55
+ * 계속 하시겠습니까?[y/n] : y
+ * 임의의 정수 입력 : 100
+ * 1 ~ 100까지의 합계 : 5050
+ * 계속 하시겠습니까?[y/n] : n
+ * 
+ * 단, 입력 정수의 범위는 1 ~ 1000까지로
+ */
+
+import java.util.*;
+
+public class Prac {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int sum = 0;
+		char ch = 'y';
+		int value = 1;
+		while(value>=1 || value<=1000) {
+			System.out.print("임의의 정수 입력 : ");
+			int a = sc.nextInt();
+			for(int i = 1;i<=a;i++) 
+				sum+=i;
+			
+			System.out.println("1 ~ "+a+"까지의 합계 : " + sum);
+			System.out.print("계속 하시겠습니까?[y/n] : ");
+			ch = sc.next().charAt(0);
+			if(ch=='n') {
+				break;
+			}else if(ch=='y') {
+				continue;
+			}else {
+				System.out.print("잘못된 값을 입력하셨습니다. 처음부터 다시 시작하세요.");
+			}
+			sum = 0;
+		}
+		
+		
+	}
+
+}

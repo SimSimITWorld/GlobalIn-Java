@@ -1,0 +1,44 @@
+package newprac;
+
+/* 문]
+ *     주민 번호 7번째 자리를 입력해서 연대와 성별을 출력하는 프로그램을 작성한다.
+ */
+
+import java.util.*;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("주민번호 입력 : ");
+		String num = sc.next();
+		
+		int year = 0;
+		String gender = " ";
+		
+		char ch = num.charAt(1);
+		
+		switch(ch) {
+		case 1: case 2:
+			year = 1900;
+			if(ch==1) 
+				gender = "남성";
+			else
+				gender = "여성";
+		case 3: case 4:
+			year = 2000;
+			if(ch==3)
+				gender = "남성";
+			else 
+				gender = "여성";
+		default:
+			System.out.println("잘못된 값이 입력되었습니다.");
+		}
+		
+		
+		System.out.printf("당신은 %d년대생 %s이십니다.", year, gender);
+	}
+
+}

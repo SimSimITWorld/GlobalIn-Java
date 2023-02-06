@@ -1,0 +1,21 @@
+package newprac;
+
+import java.util.*;
+
+public class Prac {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			System.out.print("exit를 입력하면 종료합니다.");
+			String aa = sc.next();
+			if(aa.equals("exit")) {
+				break;
+			}
+		}
+		
+	}
+
+}

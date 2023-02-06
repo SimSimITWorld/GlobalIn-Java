@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;UIPractice_06/src/com.multi&apos;&#x0D;&#x0A;- Original project: &apos;Day20&apos;&#x0D;&#x0A;- Destination element: &apos;UIPractice_06/src/com.multi&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.multiex.MultiClient.java&#x0D;&#x0A;     com.multiex.MultiClientThread.java&#x0D;&#x0A;     com.multiex.MultiServer.java&#x0D;&#x0A;     com.multiex.MultiServerThread.java" description="Copy compilation units" destination="=UIPractice_06/src&lt;com.multi" element1="/src&lt;com.multiex{MultiClient.java" element2="/src&lt;com.multiex{MultiClientThread.java" element3="/src&lt;com.multiex{MultiServer.java" element4="/src&lt;com.multiex{MultiServerThread.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1672899187767" units="4" version="1.0"/>
+</session>
